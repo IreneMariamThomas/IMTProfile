@@ -2,152 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Irene Mariam Thomas | Documentation Specialist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
-      padding: 0;
-      background: #fdfdfd;
-      color: #333;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0e0e0e;
+      color: #f4f4f4;
     }
     header {
-      background-color: #333;
-      color: white;
-      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background: #0e0e0e;
+    }
+    .intro {
+      max-width: 50%;
+    }
+    .intro h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+    .intro p {
+      font-size: 1.1em;
+      margin: 15px 0;
+      color: #bbbbbb;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #e94f37;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .hero-img img {
+      max-height: 400px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    nav {
+      background-color: #1b1b1b;
+      padding: 15px;
       text-align: center;
     }
     nav a {
-      color: white;
-      text-decoration: none;
       margin: 0 15px;
+      text-decoration: none;
+      color: #e94f37;
+      font-weight: bold;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      padding: 20px;
+    section {
+      padding: 60px 40px;
       max-width: 1000px;
       margin: auto;
     }
     h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-      margin-top: 40px;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #e94f37;
     }
     .project {
-      background: #f0f0f0;
-      margin: 10px 0;
-      padding: 15px;
-      border-radius: 5px;
-    }
-    details summary {
-      font-weight: bold;
-      cursor: pointer;
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
     }
     .footer {
       text-align: center;
-      margin-top: 40px;
       font-size: 0.9em;
-      color: #666;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 5px;
-      background: #333;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-    .btn:hover {
-      background: #555;
+      padding: 20px;
+      background-color: #111;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <header>
-    <h1>Irene Mariam Thomas</h1>
-    <p>Product Documentation Specialist | Technical Writer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="intro">
+      <h1>Hello! I Am Irene Mariam Thomas</h1>
+      <p>
+        I'm a Documentation Specialist with 3+ years of experience creating structured user guides, help sites, and release notes for global clients. My expertise lies in transforming complex technical processes into user-friendly documentation.
+      </p>
+      <div class="cta-buttons">
+        <a href="#projects">View Work</a>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="Image.jpg" alt="Irene Mariam Thomas" />
+    </div>
   </header>
 
-  <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a documentation specialist with 3+ years of experience creating user-centric content at WiseTech Global and Blume Global. I excel in DITA, Markdown, GitHub, and have delivered product documentation, release notes, and help systems for clients including Hapag Lloyd, CMACGM, Honda, and ONE.</p>
-    </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      With a foundation in DITA, Markdown, GitHub, and XML authoring, I’ve delivered help systems and documentation for clients like Hapag Lloyd and Valor Victoria. I currently work at WiseTech Global where I focus on empowering users through accessible, structured content.
+    </p>
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
+  <section id="services">
+    <h2>What I Do</h2>
+    <ul>
+      <li>Technical Writing & Documentation</li>
+      <li>Markdown & GitHub Workflow Enablement</li>
+      <li>DITA/XML Authoring</li>
+      <li>API Documentation</li>
+      <li>Online Help Site Development</li>
+      <li>Simulation-Based Training Guides</li>
+    </ul>
+  </section>
 
-      <div class="project">
-        <details>
-          <summary><strong>WiseTech Academy Migration</strong> (Apr–Jul 2024)</summary>
-          <p>Consolidated and reformatted platform and visibility documentation to WiseTech Academy. Improved content accessibility and compliance.</p>
-        </details>
-      </div>
+  <section id="projects">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <strong>WiseTech Academy Migration</strong>
+      <p>Migrated platform content to WiseTech Academy for better training accessibility.</p>
+    </div>
+    <div class="project">
+      <strong>Valor Victoria Help Site</strong>
+      <p>Developed help documentation with custom onboarding for users.</p>
+    </div>
+    <div class="project">
+      <strong>Hapag Lloyd Help Site</strong>
+      <p>Created client-specific support documents for product features.</p>
+    </div>
+    <div class="project">
+      <strong>EDI Documentation Central</strong>
+      <p>Built a structured portal of implementation guides and FAQs.</p>
+    </div>
+    <div class="project">
+      <strong>Blume Academy Program</strong>
+      <p>Supported onboarding and certification for 150+ hires in Blume Global.</p>
+    </div>
+  </section>
 
-      <div class="project">
-        <details>
-          <summary><strong>Valor Victoria Help Site</strong> (Sep–Nov 2023)</summary>
-          <p>Developed custom onboarding and help documentation to empower user base for a successful product launch.</p>
-        </details>
-      </div>
-
-      <div class="project">
-        <details>
-          <summary><strong>Hapag & Lloyd Help Site</strong> (Jul–Sep 2023)</summary>
-          <p>Delivered tailored help documentation aligned to customer workflows as part of the Nile release.</p>
-        </details>
-      </div>
-
-      <div class="project">
-        <details>
-          <summary><strong>EDI Documentation Central</strong> (Apr–Jul 2023)</summary>
-          <p>Created EDI integration guides, FAQs, and best practices to support customer adoption and internal training.</p>
-        </details>
-      </div>
-
-      <div class="project">
-        <details>
-          <summary><strong>Blume Academy Program</strong> (Feb–Oct 2023)</summary>
-          <p>Supported the launch of a structured certification and onboarding program for 150+ new hires in collaboration with R&D and HR.</p>
-        </details>
-      </div>
-    </section>
-
-    <section id="skills">
-      <h2>Skills & Tools</h2>
-      <p><strong>Docs Tools:</strong> DocFX, Oxygen XML, MadCap Flare, DITA</p>
-      <p><strong>Authoring:</strong> Markdown, XML, HTML, Visual Studio Code</p>
-      <p><strong>Source Control:</strong> GitHub, Azure DevOps</p>
-      <p><strong>CMS/Collaboration:</strong> SharePoint, Jira, Confluence</p>
-      <p><strong>Media:</strong> SnagIT, Camtasia, Articulate Storyline</p>
-      <p><strong>Other:</strong> Terraform, Jenkins, Microsoft Office</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:irenemariam70@gmail.com">irenemariam70@gmail.com</a></p>
-      <p>Phone: +91 6238265210</p>
-      <p>Website: <a href="https://irenemariamthomas.netlify.app" target="_blank">irenemariamthomas.netlify.app</a></p>
-      <a class="btn" href="https://irenemariamthomas.netlify.app" target="_blank">View Portfolio</a>
-      <a class="btn" href="mailto:irenemariam70@gmail.com">Email Me</a>
-    </section>
-  </div>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:irenemariam70@gmail.com">irenemariam70@gmail.com</a></p>
+    <p>Phone: +91 6238265210</p>
+    <p>Website: <a href="https://irenemariamthomas.netlify.app" target="_blank">irenemariamthomas.netlify.app</a></p>
+  </section>
 
   <div class="footer">
-    <p>&copy; 2025 Irene Mariam Thomas. All rights reserved.</p>
+    &copy; 2025 Irene Mariam Thomas. All rights reserved.
   </div>
-
 </body>
 </html>
